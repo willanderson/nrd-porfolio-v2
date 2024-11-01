@@ -2,7 +2,7 @@ title: Nora Deligter
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
 url: www.noradeligter.com
-baseurl: "/nrd-porfolio-v2"
+baseurl: "/"
 
 
 # Build settings
