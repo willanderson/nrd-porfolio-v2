@@ -543,9 +543,6 @@ video {
 .h-14 {
   height: 3.5rem;
 }
-.min-h-\[30vh\] {
-  min-height: 30vh;
-}
 .w-full {
   width: 100%;
 }
@@ -554,6 +551,12 @@ video {
 }
 .grow {
   flex-grow: 1;
+}
+.cursor-auto {
+  cursor: auto;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .flex-row {
   flex-direction: row;
