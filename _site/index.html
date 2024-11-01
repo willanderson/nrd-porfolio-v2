@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:title" content="Will Anderson" />
+  <meta property="og:image" content="/assets/images/poster2.png" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.min.css"
+    integrity="sha512-TdCx5ObKpq3+lwUdiXFgFLhqwTB98YsdaQWSJrwkOz084qaeO86+NMYfU/pnpPo1pDVah0a7yvFmbcvI8ZiGAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  <title>
+   Nora Deligter
+  </title>
+  <link rel="shortcut icon" type="image/png" href="/assets/images/fav.png" />
+</head>
+
+
+<body>
+<section class="px-3 md:px-4 lg:px-6 mb-10 mt-4">
+
+  <div class="mb-4 flex flex-col center">
+    <div class="w-full col-span-3 text-3xl">
+      <p class="mb-2 max-w-prose">
+        Hi, I’m Nora: a writer and filmmaker based in New York. In 2021, I directed a short film called The Pedestrian that won the jury prize for Best Documentary Short at the Montclair Film Festival and played at festivals like the Hamptons Film Festival, AVFIF, Anthology New Filmmakers, Rockaway Film Festival and more. A film I’ve spent the last few years producing, called Penn F—ing Station, received a 2024 Rooftop Filmmakers Fund and premiered at DC/DOX. I’m currently working on a mid-length film about lip filler for XTR and the Rolling Stone, all while a personal film takes shape in the background about my mother, called Stage Mom.  I write a newsletter for New York Magazine, and for other publications like Screen Slate, Vogue, Architectural Digest and more. For my commercial work, head over here. 
+      </p>
+   
+    </div>
+  </div>
+</section> <footer class="py-4 px-3 md:px-4 lg:px-6 flex items-start flex-col min-h-[30vh]  border-t border-neutral-900">
+
+    <div class="flex flex-row grow items-end justify-end text-lg w-full">
+
+        <div class="mr-4 text-lg flex w-full">
+            <div id="email-container" class="grow">
+                <a id="email" class="underline" href="mailto:noradeligter@gmail.com">noradeligter@gmail.com</a>
+                <a class="text-zinc-900 href="#" id="copy-link" onclick="copyEmail()">(⌘C)</a>
+            </div>      
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="module" src="/assets/js/app.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KTMHX5TQTR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KTMHX5TQTR');
+</script>
+</html>
